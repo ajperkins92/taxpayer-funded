@@ -16,8 +16,8 @@ function findAndReplace(){
 // Function to replace the text within the findAndReplace function
 function replaceText (node) {
   let value = node.nodeValue;
-  value = value.replace(/Free/gi, 'Taxpayer-funded');
   value = value.replace(/free/gi, 'taxpayer-funded');
+  value = value.replace(/Free/gi, 'Taxpayer-funded');
   value = value.replace(/tuition free/gi, 'taxpayer-funded');
   value = value.replace(/tuition-free/gi, 'taxpayer-funded');
   value = value.replace(/Bernie/gi, 'Our Glorious Comrade');
