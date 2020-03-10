@@ -18,9 +18,14 @@ function replaceText (node) {
   let value = node.nodeValue;
   value = value.replace(/Free/gi, 'Taxpayer-funded');
   value = value.replace(/free/gi, 'taxpayer-funded');
-  value = value.replace(/Bernie/gi, 'Comrade');
+  value = value.replace(/tuition free/gi, 'taxpayer-funded');
+  value = value.replace(/tuition-free/gi, 'taxpayer-funded');
+  value = value.replace(/Bernie/gi, 'Our Glorious Comrade');
   value = value.replace(/socialism/gi, 'wealth confiscation');
   value = value.replace(/Socialism/gi, 'Wealth confiscation');
+  value = value.replace(/Green New Deal/gi, 'Economic Reversal Deal');
+  value = value.replace(/Medicare for All/gi, 'Glorious Healthcare for All');
+  value = value.replace(/Medicare for All/gi, 'Glorious Healthcare for All');
   node.nodeValue = value;
 }
 
