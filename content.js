@@ -21,6 +21,7 @@ function replaceText (node) {
   value = value.replace(/tuition free/gi, 'taxpayer-funded');
   value = value.replace(/tuition-free/gi, 'taxpayer-funded');
   value = value.replace(/Bernie/gi, 'Our Glorious Comrade');
+  value = value.replace(/Sanders/gi, 'Sanders, may he live forever');
   value = value.replace(/socialism/gi, 'wealth confiscation');
   value = value.replace(/Socialism/gi, 'Wealth confiscation');
   value = value.replace(/Green New Deal/gi, 'Economic Reversal Deal');
