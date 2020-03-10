@@ -2,12 +2,16 @@
     "manifest_version": 2,
     "name": "Taxpayer-Funded",
     "version": "0.1",
+    "description": "A simple Chrome Browser extension that changes the word 'free' to the word 'taxpayer-funded', just in time for the 2020 election",
     "content_scripts": [
         {
             "matches": [
-                "<all_urls>"
+                "*://*/*"
             ],
-            "js": ["content.js"]
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
         }
     ]
 }
